@@ -7,14 +7,14 @@ import About from "./components/About";
 import Policy from "./components/Policy";
 import Consultation from "./components/Consultation";
 import Systems from "./components/Systems";
-import Water from "./components/Water";
-import Security from "./components/Security";
-import Energy from "./components/Energy";
 import Mechanical from "./components/Mechanical";
+import Water from "./components/Water";
+import Energy from "./components/Energy";
 import HVAC from "./components/HVAC";
-import Greenhouse from "./components/Greenhouse";
+import Security from "./components/Security";
 import ColdRoom from "./components/ColdRoom";
 import ProtectedSpaces from "./components/ProtectedSpaces";
+import Greenhouse from "./components/Greenhouse";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -97,14 +97,17 @@ export default function App() {
           <section id="policy"><Policy /></section>
           <section id="consultation"><Consultation /></section>
           <section id="systems"><Systems /></section>
-          <section id="water"><Water /></section>
-          <section id="security"><Security /></section>
-          <section id="energy"><Energy /></section>
+
+          {/* ✅ Reordered to match sidebar */}
           <section id="mechanical"><Mechanical /></section>
+          <section id="water"><Water /></section>
+          <section id="energy"><Energy /></section>
           <section id="hvac"><HVAC /></section>
-          <section id="greenhouse"><Greenhouse /></section>
+          <section id="security"><Security /></section>
           <section id="coldroom"><ColdRoom /></section>
           <section id="protected"><ProtectedSpaces /></section>
+          <section id="greenhouse"><Greenhouse /></section>
+
           <section id="education"><Education /></section>
           <section id="contact"><Contact /></section>
         </main>
