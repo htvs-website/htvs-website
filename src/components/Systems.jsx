@@ -11,7 +11,7 @@ export default function Systems() {
         {/* 1️⃣ Purpose */}
         <p className="mb-4">
           Every property depends on systems that have to work together—water,
-          power, air, and security.  High Trust Vigilant Systems designs these
+          power, air conditioning, and security.  High Trust Vigilant Systems designs these
           networks so they function as one reliable framework instead of a mix
           of separate parts.
         </p>
@@ -21,7 +21,7 @@ export default function Systems() {
           Each project starts with a site review and load analysis.  We map
           existing equipment, utility feeds, and control lines to find weak
           links or single points of failure.  From there, we plan how each
-          element can be supported, backed up, or simplified.
+          element can be supported, supplied with backup or failsafe, or simplified.
         </p>
 
         {/* 3️⃣ Integration */}
@@ -36,13 +36,13 @@ export default function Systems() {
         <p className="mb-4">
           All layouts and connections are drawn to code and labeled for
           inspection.  We coordinate with licensed trades so electrical,
-          plumbing, HVAC, and security teams share the same plan set and
+          plumbing, HVAC, and security systems teams share the same plan set and
           understand each other’s work.
         </p>
 
         {/* 5️⃣ Results */}
         <p>
-          A finished HTVS design delivers efficiency without dependence—built to
+          A finished HTVS design delivers efficiency with the highest practical degree of independence—built to
           last, easy to maintain, and ready for the unexpected.
         </p>
       </div>

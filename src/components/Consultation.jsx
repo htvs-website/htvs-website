@@ -13,22 +13,23 @@ export default function Consultation() {
           High Trust Vigilant Systems provides consultation for property owners,
           builders, and organizations needing practical direction on system
           design, upgrades, or integration.  The goal is simple—give clear,
-          lawful, and cost-aware solutions that match each site’s real
+          code-worthy, and cost-aware solutions that match each site’s real
           conditions.
         </p>
 
         {/* 2️⃣ Process */}
         <p className="mb-4">
-          A consultation begins with review of the project site, mechanical and
-          electrical layout, and any existing plans.  We identify the points
-          where systems overlap, then outline a method to make them work
-          together safely.  Advice is documented in plain language with
-          follow-up options when needed.
+          A consultation begins with a client interview, followed by review of the project site, mechanical and
+          electrical layouts, and any existing plans or ideas.  We identify the points
+          where systems may overlap, then outline a method to make them work
+          together coherently.  Consulting advice is documented in plain language with
+          digital or printed binders, depending upon the client's needs.
         </p>
 
         {/* 3️⃣ Limits and Ethics */}
         <p className="mb-4">
-          HTVS offers technical and operational guidance, not legal advice.
+          HTVS provides technical, operational, and design guidance forged through years of work in demanding environments,
+          where clarity, simplicity, and dependability determine success.
           When a matter falls under regulatory or permitting authority, we
           assist by preparing proper documentation and referring to licensed
           professionals as required.

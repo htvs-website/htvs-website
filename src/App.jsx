@@ -26,16 +26,17 @@ export default function App() {
     { id: "policy", label: "HTVS Policy" },
     { id: "consultation", label: "Consultation & Counsel" },
     { id: "systems", label: "Systems Design & Integration" },
-    { id: "water", label: "Water Systems" },
-    { id: "security", label: "Security Systems" },
-    { id: "energy", label: "Energy Systems" },
     { id: "mechanical", label: "Mechanical Systems" },
+    { id: "water", label: "Water Systems" },
+    { id: "energy", label: "Energy Systems" },
     { id: "hvac", label: "HVAC Systems" },
-    { id: "greenhouse", label: "Greenhouse Systems" },
+    { id: "security", label: "Security Systems" },
     { id: "coldroom", label: "Cold-Room Systems" },
     { id: "protected", label: "Protected Spaces / Resilient Architecture" },
-    { id: "education", label: "Master Class / Education" },
+    { id: "greenhouse", label: "Greenhouse Systems" },
+    { id: "education", label: "Master Class / Education — Architecture of Understanding" },
     { id: "contact", label: "Contact / Correspondence" },
+    { id: "blog", label: "From the Director’s Desk" },
   ];
 
   return (
@@ -43,13 +44,18 @@ export default function App() {
       {/* Sidebar Navigation */}
       <aside className="fixed left-0 top-0 h-screen w-64 bg-white shadow-md p-4 overflow-y-auto z-10">
         {/* Brand header with resized emblem */}
-        <div className="flex items-center space-x-3 mb-6">
+        <div className="flex flex-col items-center mb-6 text-center">
           <img
             src="/images/trojan-ox.png"
             alt="HTVS Emblem"
-            className="w-35 h-35 opacity-95 drop-shadow-sm"
+            className="w-28 h-28 opacity-95 drop-shadow-sm mb-2"
           />
-          <h1 className="text-2xl font-bold text-black leading-tight">HTVS</h1>
+          <h1 className="text-2xl font-bold text-black leading-tight mb-2">HTVS</h1>
+          {/* ✅ Motto directly beneath logo/title */}
+          <p className="text-xs text-gray-600 leading-snug px-2 italic">
+            HTVS integrates failsafe design with dependable craftsmanship and coherent
+            systems engineering to deliver reliable, efficient results.
+          </p>
         </div>
 
         {/* Sidebar navigation */}

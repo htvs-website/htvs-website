@@ -8,47 +8,47 @@ export default function HVAC() {
 
         {/* 1️⃣ Purpose */}
         <p className="mb-4">
-          Heating, ventilation, and air conditioning determine comfort, safety,
-          and energy use.  High Trust Vigilant Systems designs HVAC layouts that
-          meet code, maintain balance, and stay easy to service through the life
-          of the building.
+          Heating, ventilation, and air conditioning safely maintain a healthy and comfortable environment,
+          and minimize energy use.  High Trust Vigilant Systems designs HVAC layouts that
+          meet code, maintain balance, and are easy to access and service.
         </p>
 
         {/* 2️⃣ Evaluation */}
         <p className="mb-4">
           We begin with a load calculation and review of duct routes, equipment
-          locations, and airflow paths.  Each system is matched to the structure
-          rather than forcing standard equipment into a poor fit.
+          locations, and optimal airflow paths.  Each system is matched to the structure it serves
+          to maximize efficiency.
         </p>
 
         {/* 3️⃣ Installation */}
         <p className="mb-4">
-          Equipment is mounted level, supported properly, and connected with
-          sealed joints and clear drain routing.  Linesets and wiring are
-          labeled and protected.  We test airflow, static pressure, and
-          temperature drop before leaving the site.
+          Equipment is mounted level, supported or anchored properly, and connected with
+          sealed joints and clear drain routing.  Linesets and wiring are protected
+          and labeled for clarity.  We test airflow, static pressure, and
+          temperature drop before the project is stamped "Complete."
         </p>
 
         {/* 4️⃣ Controls and Balance */}
         <p className="mb-4">
-          Thermostats, relays, and safeties are wired per manufacturer
-          specification.  Zoning and dampers are set to balance comfort across
-          the property.  Manual controls are provided for quick checks without
-          relying on proprietary apps.
+          Thermostats, sensors, and safeties are located and wired per manufacturer
+          specification.  Zoning and dampers, if needed, are set to balance comfort across
+          the property.  Manual controls, whereever possible, are provided for quick checks without
+          reliance upon proprietary apps.
         </p>
 
         {/* 5️⃣ Maintenance and Documentation */}
         <p className="mb-4">
           Each installation includes service notes—filter sizes, refrigerant
           type, and test readings.  Access panels remain unblocked, and critical
-          components are reachable without cutting or removal.
+          components are reachable without cutting or removal. Ample installation space ensures accessibility.
         </p>
 
         {/* 6️⃣ Results */}
         <p>
-          The result is an HVAC system that runs quiet, maintains target
+          The result is an HVAC system that runs quietly, maintains target
           conditions, and can be serviced by any qualified technician.  Good
-          comfort starts with lawful design and ends with clean workmanship.
+          comfort starts with right design and ends with quality workmanship. The client not only appreciates
+          its performance; He is pround of its presentation.
         </p>
       </div>
     </FadeInSection>
