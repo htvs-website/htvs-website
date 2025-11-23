@@ -35,8 +35,8 @@ export default function App() {
     { id: "protected", label: "Protected Spaces / Resilient Architecture" },
     { id: "greenhouse", label: "Greenhouse Systems" },
     { id: "education", label: "Master Class / Education — Architecture of Understanding" },
-    { id: "contact", label: "Contact / Correspondence" },
-    { id: "blog", label: "From the Director’s Desk" },
+    { id: "contact", label: "Contact / Correspondence" }
+    // Removed the duplicate "blog" entry from the dynamic list
   ];
 
   return (
@@ -51,7 +51,6 @@ export default function App() {
             className="w-28 h-28 opacity-95 drop-shadow-sm mb-2"
           />
           <h1 className="text-2xl font-bold text-black leading-tight mb-2">HTVS</h1>
-          {/* ✅ Motto directly beneath logo/title */}
           <p className="text-xs text-gray-600 leading-snug px-2 italic">
             HTVS integrates failsafe design with dependable craftsmanship and coherent
             systems engineering to deliver reliable, efficient results.
@@ -72,7 +71,7 @@ export default function App() {
               </li>
             ))}
 
-            {/* --- Personal blog link --- */}
+            {/* --- Personal blog link (kept as the sole blog link) --- */}
             <li className="pt-4 border-t border-gray-200 mt-4">
               <a
                 href="/blog"
@@ -89,7 +88,7 @@ export default function App() {
         </nav>
       </aside>
 
-      {/* ✅ Content column to the right of sidebar */}
+      {/* Content column to the right of sidebar */}
       <div className="ml-64 flex flex-col flex-1 min-h-screen">
         <main className="flex-grow p-8 space-y-20">
           <section id="home"><Home /></section>
@@ -98,7 +97,7 @@ export default function App() {
           <section id="consultation"><Consultation /></section>
           <section id="systems"><Systems /></section>
 
-          {/* ✅ Reordered to match sidebar */}
+          {/* Reordered to match sidebar */}
           <section id="mechanical"><Mechanical /></section>
           <section id="water"><Water /></section>
           <section id="energy"><Energy /></section>
@@ -112,7 +111,7 @@ export default function App() {
           <section id="contact"><Contact /></section>
         </main>
 
-        {/* ✅ Footer now full-width below all sections */}
+        {/* Footer now full-width below all sections */}
         <Footer />
       </div>
     </div>

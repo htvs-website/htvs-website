@@ -9,7 +9,8 @@ export default function Policy() {
         <p className="mb-4">
           High Trust Vigilant Systems works by the book. Every job is carefully planned,
           permitted as needed, and documented to meet or exceed current codes and
-          inspection standards. Our reputation rides upon every project, and we guard it diligently.
+          inspection standards. Operating from McDonough, Georgia, we uphold standards
+          that ensure consistency, transparency, and lawful workmanship across every project.
         </p>
 
         <p className="mb-4">
@@ -33,7 +34,9 @@ export default function Policy() {
 
         <p>
           Our crews and subcontractors arrive prepared, respect property, and clean up after the
-          work is done. The HTVS Director maintains a hands-on approach throughout the project. Each site is left in better order than we found it. That is the measure we use to call a job complete.
+          work is done. The HTVS Director maintains a hands-on approach throughout the project.
+          Each site is left in better order than we found it. That is the measure we use to call
+          a job complete.
         </p>
       </div>
     </FadeInSection>

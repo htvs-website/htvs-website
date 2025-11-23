@@ -8,7 +8,8 @@ export default function Home() {
 
         <p>
           Welcome to <strong>High Trust Vigilant Systems (HTVS)</strong>, where sound design meets practical resilience.
-          We help homeowners, builders, and private organizations create spaces that are efficient, secure, and built to last.
+          From our base of operations in McDonough, Georgia, we help homeowners, builders, and private organizations
+          create spaces that are efficient, secure, and built to last.
         </p>
 
         {/* ✅ Core Motto echo — centered and understated */}
@@ -18,7 +19,7 @@ export default function Home() {
         </p>
 
         <p>
-          Our approach is simple in concept: integrate water, power, air conditioning, security and fuel
+          Our approach is simple in concept: integrate water, power, air conditioning, security, and fuel
           systems into a symbiotic, reliable, and redundant framework that keeps you independent, confident,
           and comfortable even when the outside world goes sideways.
         </p>

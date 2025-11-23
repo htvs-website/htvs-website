@@ -11,9 +11,9 @@ export default function Contact() {
         {/* 1️⃣ Introduction */}
         <p className="mb-4">
           High Trust Vigilant Systems welcomes correspondence regarding design,
-          consultation, or project coordination.  Inquiries are answered in the
-          order received and documented for follow-up.  Communication is kept
-          professional and confidential at all times.
+          consultation, or project coordination. Inquiries are answered in the
+          order received and documented for appropriate follow-up. Communication
+          is kept professional and confidential at all times.
         </p>
 
         {/* 2️⃣ Contact Information */}
@@ -21,10 +21,10 @@ export default function Contact() {
           <p>
             <strong>Email:</strong>{" "}
             <a
-              href="mailto:info@HighTrustVigilant.Systems"
+              href="mailto:info@hightrustvigilant.systems"
               className="text-blue-700 hover:underline"
             >
-              info@HighTrustVigilant.Systems
+              info@hightrustvigilant.systems
             </a>
           </p>
           <p>
@@ -38,8 +38,8 @@ export default function Contact() {
         {/* 3️⃣ Optional Note */}
         <p className="text-gray-700">
           Site visits and consultations are scheduled after an initial review of
-          project details.  Written documentation is provided for every formal
-          engagement.
+          project details. Clear written documentation is provided for every
+          formal engagement.
         </p>
       </div>
     </FadeInSection>
