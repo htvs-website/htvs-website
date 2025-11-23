@@ -21,13 +21,10 @@
       property="og:description"
       content="Lawful design, resilient architecture, and integrated systems for water, energy, and security."
     />
-
-    <!-- ✅ Added official HTVS brand tagline -->
     <meta
       name="og:tagline"
       content="HTVS integrates failsafe design with dependable craftsmanship and coherent systems engineering to deliver reliable, efficient results."
     />
-
     <meta
       property="og:image"
       content="https://hightrustvigilant.systems/images/trojan-ox.png"
@@ -49,82 +46,181 @@
 
     <link rel="icon" type="image/png" href="/images/trojan-ox.png" />
 
-    <!-- Organization Schema -->
+    <!-- ⭐ FULL HTVS SCHEMA (Merged and Validated) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "High Trust Vigilant Systems",
-        "url": "https://hightrustvigilant.systems",
-        "logo": "https://hightrustvigilant.systems/images/trojan-ox.png",
-        "description": "High Trust Vigilant Systems (HTVS) designs and integrates resilient systems for water, energy, security, and climate control. Lawful design. Reliable performance. Peace through preparedness.",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "email": "info@hightrustvigilant.systems",
-          "contactType": "inquiry",
-          "areaServed": "US",
-          "availableLanguage": ["English"]
-        }
-      }
-    </script>
+        "@graph": [
+          {
+            "@type": "LocalBusiness",
+            "name": "High Trust Vigilant Systems",
+            "slogan": "HTVS integrates failsafe design with dependable craftsmanship and coherent systems engineering to deliver reliable, efficient results.",
+            "image": "https://hightrustvigilant.systems/images/trojan-ox.png",
+            "url": "https://hightrustvigilant.systems",
+            "hasMap": "https://www.google.com/maps/place/139+Russell+Road,+McDonough,+GA+30252",
+            "description": "High Trust Vigilant Systems (HTVS) integrates failsafe design with dependable craftsmanship and coherent systems engineering to deliver reliable, efficient results.",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "139 Russell Road",
+              "addressLocality": "McDonough",
+              "addressRegion": "GA",
+              "postalCode": "30252",
+              "addressCountry": "US"
+            },
+            "email": "info@HighTrustVigilant.Systems",
+            "telephone": "+1-404-368-7991",
+            "areaServed": [
+              "McDonough, GA",
+              "Stockbridge, GA",
+              "Locust Grove, GA",
+              "Henry County, GA",
+              "South Atlanta Metro"
+            ],
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+              }
+            ],
+            "founder": "Stephen Joel Bové",
+            "foundingLocation": "McDonough, Georgia",
+            "foundingDate": "2025",
+            "logo": "https://hightrustvigilant.systems/images/trojan-ox.png",
+            "keywords": [
+              "mechanical systems",
+              "water systems",
+              "energy systems",
+              "HVAC systems",
+              "security systems",
+              "cold-room systems",
+              "resilient architecture",
+              "greenhouse systems",
+              "systems design",
+              "systems integration",
+              "High Trust Vigilant Systems",
+              "HTVS"
+            ],
+            "knowsAbout": [
+              "mechanical systems design",
+              "water supply engineering",
+              "energy redundancy planning",
+              "electrical load analysis",
+              "HVAC system balancing",
+              "security systems engineering",
+              "resilient protective architecture",
+              "cold-room design",
+              "greenhouse climate control",
+              "systems integration",
+              "backup power systems",
+              "redundant system planning",
+              "mission-critical infrastructure"
+            ],
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 33.458,
+              "longitude": -84.129
+            },
+            "sameAs": [
+              "https://www.google.com/search?q=High+Trust+Vigilant+Systems"
+            ]
+          },
 
-    <!-- Website Schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "High Trust Vigilant Systems",
-        "url": "https://hightrustvigilant.systems",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://hightrustvigilant.systems/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "High Trust Vigilant Systems",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://hightrustvigilant.systems/images/trojan-ox.png"
+          {
+            "@type": "Organization",
+            "name": "High Trust Vigilant Systems",
+            "url": "https://hightrustvigilant.systems",
+            "logo": "https://hightrustvigilant.systems/images/trojan-ox.png",
+            "description": "HTVS integrates failsafe design with dependable craftsmanship and coherent systems engineering to deliver reliable, efficient results.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "contactType": "customer support",
+              "email": "info@HighTrustVigilant.Systems",
+              "areaServed": "US",
+              "availableLanguage": "English"
+            }
+          },
+
+          {
+            "@type": "WebSite",
+            "name": "High Trust Vigilant Systems",
+            "url": "https://hightrustvigilant.systems",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://hightrustvigilant.systems/?q={search_term}",
+              "query-input": "required name=search_term"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "High Trust Vigilant Systems",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://hightrustvigilant.systems/images/trojan-ox.png"
+              }
+            }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Systems Design & Integration",
+            "description": "Integrated mechanical, water, energy, HVAC, and security systems designed for resilience and reliability.",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Mechanical Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Water Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Energy Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "HVAC Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Security Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Cold-Room Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Greenhouse Systems",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
+          },
+
+          {
+            "@type": "Service",
+            "serviceType": "Protected Spaces / Resilient Architecture",
+            "provider": { "@type": "LocalBusiness", "name": "High Trust Vigilant Systems" }
           }
-        }
-      }
-    </script>
-
-    <!-- Local Business Schema (Primary for SEO / GBP / Local Ranking) -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "High Trust Vigilant Systems",
-        "image": "https://hightrustvigilant.systems/images/trojan-ox.png",
-        "url": "https://hightrustvigilant.systems",
-        "telephone": "",
-        "priceRange": "$$",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "139 Russell Road",
-          "addressLocality": "McDonough",
-          "addressRegion": "GA",
-          "postalCode": "30252",
-          "addressCountry": "US"
-        },
-        "areaServed": [
-          "McDonough, GA",
-          "Stockbridge, GA",
-          "Locust Grove, GA",
-          "Henry County, GA",
-          "South Atlanta Metro"
-        ],
-        "description": "HTVS integrates failsafe design with dependable craftsmanship and coherent systems engineering to deliver reliable, efficient results.",
-        "serviceType": [
-          "HVAC Diagnostics",
-          "HVAC Installation",
-          "Heat Pump Integration",
-          "Electrical Safety Assessments",
-          "Mechanical Troubleshooting",
-          "System Integration",
-          "Reliability Engineering"
         ]
       }
     </script>
