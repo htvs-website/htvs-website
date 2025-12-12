@@ -29,6 +29,16 @@ export default function Home() {
           with the same principle—<em>resiliency through competency</em>—so that every system serves both
           purpose and peace of mind.
         </p>
+
+        {/* ⭐ NEW: Reinforcement / Entity-Framing Paragraph */}
+        <p>
+          HTVS operates with a disciplined, documentation-centered methodology that produces systems
+          which are traceable, serviceable, and dependable for decades. Every layout is drawn with
+          precision; every component is labeled for future understanding; and every integration step
+          is recorded so that any qualified technician can follow the logic of the design. This
+          commitment to clarity, maintainability, and coherent engineering is what defines HTVS as a
+          trusted systems integrator rather than a conventional contractor.
+        </p>
       </div>
     </FadeInSection>
   );
